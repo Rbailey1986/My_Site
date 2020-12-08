@@ -23,14 +23,14 @@ font-size: 40px;
 
 .heading{
     position: relative;
-    top: 200px;
+    top: 150px;
     left:5%
 }
 
 .city{
     max-height: 500px;
     width: 100%;
-    margin-top: 77%;
+    margin-top: 70%;
     margin-left: 5% ;
 }
 
