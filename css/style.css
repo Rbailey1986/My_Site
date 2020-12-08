@@ -30,8 +30,7 @@ font-size: 40px;
 .city{
     max-height: 500px;
     width: 100%;
-    margin-top: 70%;
-    margin-left: 5% ;
+margin-right: 5%;
 }
 
 .head{
@@ -46,7 +45,7 @@ font-size: 40px;
 
 #job {
    position: relative;
-   inline:inline-block;
+   display: inline-block;
    font-size: 18px;
    left: 30px;
    /* top: 5%; */
@@ -85,16 +84,38 @@ font-size: 40px;
 
 /******LAPTOP SCREEN********/
 
-@media only screen and (width: 1280px) {
+
+
+@media only screen and (min-width: 360px) { 
+
+    .city{
+        max-height: 500px;
+        width: 100%;
+margin-top: 170px;    }
+
+    .head{
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+    .city{
+        max-height: 500px;
+        width: 100%;
+        margin-top: 60%;
+        margin-right: 5% ;
+    }
+
+}
+@media only screen and (min-width: 1280px) {
     .city{
         max-height: 500px;
         width: 100%;
         margin-top: 20%;
-        margin-left: 5% ;
+        margin-right: 5% ;
     }
 
 }
-
-
 
 
