@@ -1,6 +1,9 @@
 /*************TAG SELECTORS*********/
+
+
+
 html {
-    max-width: 90%;
+    max-width: 100%;
     background-color: #E1E2FE;
 }
 
@@ -14,28 +17,27 @@ margin: 0 auto 0 auto;
 font-size: 40px;
 }
 
+
+
+.flex{
+    display:flex;
+    background-color: red;
+    width: 100%;
+}
+
 /***********CLASS SELECTORS********/
 
-.top-container {
-    background-color: #E1E2FE;
-    height: 170px;
-}
+
 
 .heading{
     position: relative;
     top: 150px;
-    left:5%
+    /* margin-bottom: 200px; */
+    min-height: 750px;
+
+    
 }
 
-.city{
-    max-height: 500px;
-    width: 100%;
-margin-right: 5%;
-}
-
-.head{
-    max-width: 60%;
-}
 
 
 
@@ -82,40 +84,69 @@ margin-right: 5%;
     margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
 
+
+  .skills{
+      display:flex;
+      background-color: black;
+      height: 750px;
+      width: 200px;
+  }
 /******LAPTOP SCREEN********/
 
 
 
-@media only screen and (min-width: 360px) { 
+@media only screen and (max-width: 414px) { 
 
-    .city{
-        max-height: 500px;
-        width: 100%;
-margin-top: 170px;    }
+    #my-name{
+        margin-top: 50px;
 
-    .head{
-        margin-top: 100px;
+    }
+
+
+    #job {
+        margin-left: 40px;
+        font-size: 1.4rem;
+    
+    }
+    
+
+    .placement{
+        background-color: pink;
+        height: 200px;
+        max-width: 414px;
+        margin-top: 235px;
+        
+    }
+
+    .heading{
+        position: relative;
+        top: 150px;
+        /* margin-bottom: 200px; */
+        height: 736px;
+    
+        
     }
 }
 
 
-@media only screen and (min-width: 375px) {
-    .city{
-        max-height: 500px;
-        width: 100%;
-        margin-top: 60%;
-        margin-right: 5% ;
-    }
+@media only screen and (max-width: 414px) {
+  
 
 }
+
+@media only screen and (min-width: 768px) {
+   
+
+}
+
 @media only screen and (min-width: 1280px) {
-    .city{
-        max-height: 500px;
-        width: 100%;
-        margin-top: 20%;
-        margin-right: 5% ;
-    }
+   
 
+}
+
+@media only screen and (min-width: 2560px) {
+
+    
 }
 
 
