@@ -129,8 +129,39 @@ font-size: 40px;
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 375px) {
   
+
+
+    #my-name{
+        margin-top: 50px;
+
+    }
+
+
+    #job {
+        margin-left: 40px;
+        font-size: 1.4rem;
+    
+    }
+    
+
+    .placement{
+        background-color: pink;
+        height: 200px;
+        max-width: 414px;
+        margin-top: 295px;
+        
+    }
+
+    .heading{
+        position: relative;
+        top: 150px;
+        /* margin-bottom: 200px; */
+        height: 812px;
+    
+        
+    }
 
 }
 
