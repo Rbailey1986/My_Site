@@ -54,7 +54,7 @@ left: 110px;
 
 .placement{
         
-    max-height: 150px;
+    max-height: 190px;
     max-width: 414px;
     margin-top: 221px;
   
@@ -64,7 +64,7 @@ left: 110px;
 .skills{
     display:flex;
     background-color: blue;
-    height: 750px;
+    height: 812px;
     max-width: 1366px;
 }
 
